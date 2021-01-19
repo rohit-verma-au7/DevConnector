@@ -7,6 +7,7 @@ const connectDB = async () => {
     await mongoose.connect(db, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
+      useCreateIndex: true,
     });
 
     console.log("Mongo DB connected .....");
@@ -18,3 +19,11 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+
+// {
+//     "mongoURI" : "mongodb+srv://Rohit:OMSAIRAM1@devconnector.uccfa.mongodb.net/mern_test?retryWrites=true&w=majority"
+// }
+
+// {
+//   "mongoURI" : "mongodb://localhost:27017/mern_stack"
+// }
