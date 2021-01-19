@@ -1,3 +1,4 @@
 {
-    "mongoURI" : "mongodb+srv://Rohit:OMSAIRAM1@devconnector.uccfa.mongodb.net/mern_test?retryWrites=true&w=majority"
+    "mongoURI" : "mongodb+srv://Rohit:OMSAIRAM1@devconnector.uccfa.mongodb.net/mern_test?retryWrites=true&w=majority",
+    "jwtSecret" : "mysecrettoken"
 }
