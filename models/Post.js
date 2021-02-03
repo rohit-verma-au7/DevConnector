@@ -16,7 +16,7 @@ const PostSchema = new Schema({
   avatar: {
     type: String,
   },
-  like: [
+  likes: [
     {
       user: {
         type: Schema.Types.ObjectId,
@@ -30,7 +30,7 @@ const PostSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: "users",
       },
-      texts: {
+      text: {
         type: String,
         required: true,
       },
