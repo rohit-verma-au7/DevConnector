@@ -1,0 +1,6 @@
+{
+    "mongoURI" : "mongodb+srv://Rohit:OMSAIRAM1@devconnector.uccfa.mongodb.net/mern_test?retryWrites=true&w=majority",
+    "jwtSecret" : "mysecrettoken",
+    "githubClientId" :"4f6a9662ec6dae3e639e",
+    "githubSecret" : "0edaf3741dbfc3e12b4885e5528826f76d723685"
+}
